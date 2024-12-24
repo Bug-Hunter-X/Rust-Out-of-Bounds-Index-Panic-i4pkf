@@ -1,0 +1,1 @@
+This repository demonstrates a common runtime error in Rust: an out-of-bounds index panic.  The `bug.rs` file contains code that attempts to access a vector element using an index that exceeds the vector's bounds. This results in a runtime panic, halting the program's execution. The `bugSolution.rs` file shows how to prevent this error using bounds checking.
